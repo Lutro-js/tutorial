@@ -6,9 +6,12 @@ name = "pypi"
 [packages]
 django = "*"
 djangorestframework = "*"
-django-markdownx = "*"
+django-markdownx = "~=4.0.0b1"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
